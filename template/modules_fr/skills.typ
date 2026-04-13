@@ -1,20 +1,34 @@
-// Imports
-#import "@preview/brilliant-cv:3.3.0": cv-section, cv-skill, h-bar
+#import "../src/cv.typ": cv-section, cv-skill, h-bar
 
 
 #cv-section("Compétences")
 
 #cv-skill(
-  type: [Langues],
-  info: [Anglais #h-bar() Français #h-bar() Chinois],
+  type: [Développement ],
+  info: [Python (FastApi/Flask/Jinja) - PHP - Java - POO - JavaScript - APIs REST - Modern Frameworks],
 )
 
 #cv-skill(
-  type: [Tech Stack],
-  info: [Tableau #h-bar() Python (Pandas/Numpy) #h-bar() PostgreSQL],
+  type: [Données ],
+  info: [SQL / PostgreSQL - SQL Server - SSIS/ETL - PowerBI - KPI/OKR - Excel - Swagger],
 )
 
 #cv-skill(
-  type: [Centres d'intérêt],
-  info: [Natation #h-bar() Cuisine #h-bar() Lecture],
+  type: [Devops & Cloud  ],
+  info: [Linux - Grafana - Dynatrace - Docker - Azure - GitLab CI/CD - SonarQube ],
+)
+
+#cv-skill(
+  type: [Outils  ],
+  info: [Git - Bitbucket - Jira - Postman - ERP - CRM - ITSM],
+)
+
+#cv-skill(
+  type: [Methodes  ],
+  info: [Agile/ Scrum - ITIL - UML - Conduite de projets - UX/UI design - Modélisation de données],
+)
+
+#cv-skill(
+  type: [Langues  ],
+  info: [Français (natif) - Anglais (courant)],
 )

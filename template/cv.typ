@@ -1,5 +1,8 @@
 // Imports
-#import "@preview/brilliant-cv:3.3.0": cv
+
+#import "./src/lib.typ": cv
+
+
 #let metadata = toml("./metadata.toml")
 #let cv-language = sys.inputs.at("language", default: none)
 #let metadata = if cv-language != none {
@@ -27,10 +30,7 @@
 )
 
 #import-modules((
-  "education",
-  "professional",
-  "projects",
-  "certificates",
-  "publications",
   "skills",
+  "professional",
+  "education",
 ))

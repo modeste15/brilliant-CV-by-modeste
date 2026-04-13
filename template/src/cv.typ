@@ -15,21 +15,36 @@
 #let _header-styles(header-font, regular-colors, accent-color, header-info-font-size) = (
   first-name: (str) => text(
     font: header-font,
-    size: 32pt,
-    weight: "light",
-    fill: regular-colors.darkgray,
+    size: 14pt,
+    weight: "regular",
+    fill: rgb("#1F2937"), // regular-colors.darkgray,
     str,
   ),
-  last-name: (str) => text(font: header-font, size: 32pt, weight: "bold", str),
+  last-name: (str) => text(font: header-font, size: 14pt, weight: "semibold", fill: rgb("#1F2937"), str),
   info: (str) => text(size: header-info-font-size, fill: accent-color, str),
-  quote: (str) => text(size: 10pt, weight: "medium", style: "italic", fill: accent-color, str),
+  quote: (str) => text(size: 10pt, weight: "medium", style: "italic", fill: rgb("#1F2937"), str),
 )
+
+
+#let _poste-styles(header-font, regular-colors, accent-color, header-info-font-size) = (
+  poste: (str) => text(
+    font: header-font,
+    size: 16pt,
+    weight: "bold",
+    fill: rgb("#2563EB"),
+    str,
+  ),
+)
+
+
 
 /// Extract layout values with defaults
 /// -> any
 #let _get-layout-value(metadata, key, default) = {
   eval(metadata.layout.at(key, default: default))
 }
+
+
 
 /// Personal info icons mapping
 /// -> dictionary
@@ -117,19 +132,47 @@
 
 /// Create header name section
 /// -> content
-#let _make-header-name-section(styles, non-latin, non-latin-name, first-name, last-name, personal-info, header-quote, custom-icons) = {
+#let _make-header-name-section(
+  styles,
+  non-latin,
+  non-latin-name,
+  first-name,
+  last-name,
+  poste,
+  styles_poste,
+  personal-info,
+  header-quote,
+  custom-icons
+) = {
   table(
     columns: 1fr,
     inset: 0pt,
     stroke: none,
-    row-gutter: 6mm,
+    row-gutter: 4mm,
+
+    // Nom
     if non-latin {
       (styles.first-name)(non-latin-name)
-    } else [#(styles.first-name)(first-name) #h(5pt) #(styles.last-name)(last-name)],
+    } else [
+      #(styles.first-name)(first-name)
+      #h(5pt)
+      #(styles.last-name)(last-name)
+    ],
+
+    // Poste juste en dessous
+    [#(styles_poste.poste)(poste)],
+
+    // Infos personnelles
     [#(styles.info)(_make-header-info(personal-info, _personal-info-icons, custom-icons))],
-    .. if header-quote != none { ([#(styles.quote)(header-quote)],) },
+
+    // Citation optionnelle
+    .. if header-quote != none {
+      ([#(styles.quote)(header-quote)],)
+    },
   )
 }
+
+
 
 /// Create header photo section
 /// -> content
@@ -186,6 +229,8 @@
   let personal-info = metadata.personal.info
   let first-name = metadata.personal.first_name
   let last-name = metadata.personal.last_name
+  let poste = metadata.personal.poste
+
   let header-quote = metadata.lang.at(metadata.language).at("header_quote", default: none)
   let display-profile-photo = metadata.layout.header.display_profile_photo
   let profile-photo-radius = eval(metadata.layout.header.at("profile_photo_radius", default: "50%"))
@@ -205,11 +250,15 @@
 
   // Create styles
   let styles = _header-styles(header-font, regular-colors, accent-color, header-info-font-size)
+
+  let styles_poste = _poste-styles(header-font, regular-colors, accent-color, header-info-font-size)
+  
   
   // Create components
   let name-section = _make-header-name-section(
-    styles, non-latin, non-latin-name, first-name, last-name, personal-info, header-quote, custom-icons
+    styles, non-latin, non-latin-name, first-name, last-name, poste, styles_poste, personal-info, header-quote, custom-icons
   )
+
   
   let photo-section = _make-header-photo-section(display-profile-photo, profile-photo, profile-photo-radius)
 
@@ -292,8 +341,8 @@
 /// -> content
 #let cv-section(
   title,
-  highlighted: true,
-  letters: 3,
+  highlighted: false,
+  letters: 0,
   color: none,
   metadata: none,
   awesome-colors: _awesome-colors,
@@ -313,7 +362,7 @@
   let normal-text = title.slice(letters)
 
   let section-title-style(str, color: black) = {
-    text(size: 16pt, weight: "bold", fill: color, str)
+    text(size: 14pt, weight: "bold", fill: color, str)
   }
 
   v(before-section-skip)
@@ -360,22 +409,23 @@
 /// Create entry style functions
 /// -> dictionary
 #let _entry-styles(accent-color, before-entry-description-skip) = (
-  a1: (str) => text(size: 10pt, weight: "bold", str),
-  a2: (str) => align(right, text(weight: "medium", fill: accent-color, style: "oblique", str)),
-  b1: (str) => text(size: 8pt, fill: accent-color, weight: "medium", smallcaps(str)),
-  b2: (str) => align(right, text(size: 8pt, weight: "medium", fill: gray, style: "oblique", str)),
+  a1: (str) => text(size: 11pt, weight: "bold", str),
+  a2: (str) => align(right, text(size: 11pt, weight: "medium", fill: accent-color, style: "oblique", str)),
+  b1: (str) => text(size: 10pt, fill: accent-color, weight: "medium", smallcaps(str)),
+  b2: (str) => align(right, text(size: 10pt, weight: "medium", fill: gray, style: "oblique", str)),
   dates: (dates) => [
     #set list(marker: [])
     #dates
   ],
   description: (str) => text(
     fill: _regular-colors.lightgray,
+    size: 10pt,
     {
       v(before-entry-description-skip)
       str
     },
   ),
-  tag: (str) => align(center, text(size: 8pt, weight: "regular", str)),
+  tag: (str) => align(center, text(size: 10pt, weight: "regular", str)),
 )
 
 /// Create entry tag list
@@ -743,7 +793,7 @@
 /// -> content
 #let cv-skill(type: "Type", info: "Info") = {
   let skill-type-style(str) = {
-    align(right, text(size: 10pt, weight: "bold", str))
+    align(left, text(size: 10pt, weight: "bold", str))
   }
   let skill-info-style(str) = {
     text(str)
@@ -756,7 +806,7 @@
     stroke: none,
     skill-type-style(type), skill-info-style(info),
   )
-  v(-6pt)
+  v(-3pt)
 }
 
 /// Add a skill with a level to the CV.
