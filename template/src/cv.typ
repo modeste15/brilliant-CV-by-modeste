@@ -478,7 +478,7 @@
       columns: (1fr, date-width),
       inset: 0pt,
       stroke: 0pt,
-      gutter: 6pt,
+      gutter: 3pt,
       align: (x, y) => if x == 1 { right } else { auto },
       table(
           columns: (if display-logo and logo != "" { 4% } else { 0% }, 1fr),
@@ -542,13 +542,13 @@
         columns: (1fr, date-width),
         inset: 0pt,
         stroke: 0pt,
-        gutter: 6pt,
+        gutter: 4pt,
         align: horizon,
         (styles.a1)(society),
         (styles.a2)(location),
       )
     }
-    v(-10pt)
+    v(-5pt)
     
   } else if entry-type == "continued" {
     // Entry continued layout (original cv-entry-continued logic)
@@ -581,7 +581,7 @@
         columns: (1fr, date-width),
         inset: 0pt,
         stroke: 0pt,
-        gutter: 6pt,
+        gutter: 4pt,
         align: auto,
         {
           (styles.b1)(title)
@@ -859,7 +859,7 @@
     stroke: none,
     skill-type-style(type), skill-level-style(level), skill-info-style(info),
   )
-  v(-6pt)
+  v(-3pt)
 }
 
 /// Add a skill tag to the CV.
@@ -959,7 +959,7 @@
     },
     honor-location-style(location),
   )
-  v(-6pt)
+  v(-3pt)
 }
 
 /// Add the publications to the CV by reading a bib file.

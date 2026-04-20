@@ -69,7 +69,7 @@ language = "fr"
     first_name = "Modeste"
     last_name = "KOUASSI"
 
-    poste = "Chargé de Support Applicatif & Fonctionnel"
+    poste = "Chargé de Support Applicatif & Data"
 
 
     [personal.info]
@@ -82,7 +82,7 @@ language = "fr"
 
         # homepage = "johndoe.dev"
 
-        location = "France"
+        location = "Paris"
         # extraInfo = "Available for remote work"  # Shown as extra text with an info icon in header
         # Insert a line break in the header info, splitting icons across two lines
         #linebreak = ""
@@ -91,16 +91,16 @@ language = "fr"
         # Custom info with image icon
         # To use a custom image icon, pass it via custom-icons in cv.typ:
         #   custom-icons: ("custom-2": image("assets/my-icon.png"))
-        [personal.info.custom-2]
-            awesomeIcon = "certificate"
-            text = "Azure & Power Platform Fundamentals Certified"
+        # [personal.info.custom-2]
+            # awesomeIcon = "certificate"
+            # text = "Azure & Power Platform Fundamentals Certified"
 
 
 # Add a [lang.xx] section for each language you support
 # Each section must contain header_quote, cv_footer, and letter_footer
 
 [lang.fr]
-    header_quote = "Fort de 4 ans d’expérience, du développement applicatif à l’analyse fonctionnelle, je combine expertise technique et compréhension des enjeux opérationnels afin d’améliorer la performance des systèmes d’information. En tant qu’intermédiaire entre les équipes techniques et métiers, je veille à la fiabilité des processus et à la mise en œuvre de solutions d’automatisation à forte valeur ajoutée."
+    header_quote = "Fort de 4 ans d’expérience, allant du développement applicatif à l’analyse fonctionnelle, je combine expertise technique et compréhension des enjeux opérationnels. En tant qu’intermédiaire entre les équipes techniques et métiers, je veille à la fiabilité des processus et à la mise en œuvre de solutions d’automatisation à forte valeur ajoutée."
     cv_footer = "Résumé"
     letter_footer = "Lettre de motivation"
 

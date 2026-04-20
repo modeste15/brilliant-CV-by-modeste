@@ -4,7 +4,7 @@
 #cv-section("Compétences")
 
 #cv-skill(
-  type: [Développement ],
+  type: [Développement],
   info: [Python (FastApi/Flask/Jinja) - PHP - Java - POO - JavaScript - APIs REST - Modern Frameworks],
 )
 
@@ -24,7 +24,7 @@
 )
 
 #cv-skill(
-  type: [Methodes  ],
+  type: [Méthodes  ],
   info: [Agile/ Scrum - ITIL - UML - Conduite de projets - UX/UI design - Modélisation de données],
 )
 
