@@ -9,7 +9,7 @@
 #cv-entry(
   society: [Malakoff Humanis],
   location: [Angers],
-  title: [Chargé de développement Informatique | Data & CRM],
+  title: [PMO Pilotage Operationnel | Data & CRM],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
@@ -23,7 +23,7 @@
     ],
 
     [
-      Analyse des incidents SSIS, des anomalies de données avec SQL, ainsi que reporting de performance commerciale et recueil des besoins.
+      Intervention sur des problématiques RH, notamment la rémunération variable, l’accompagnement à la formation des utilisateurs et la conduite du changement des outils et des processus.
     ],
 
 
