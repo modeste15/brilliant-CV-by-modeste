@@ -5,12 +5,12 @@
 
 #cv-skill(
   type: [Développement],
-  info: [Python (FastApi/Flask/Jinja) - PHP - Java - POO - JavaScript - APIs REST - Modern Frameworks],
+  info: [Python (FastApi/Flask/Jinja) - PHP - Java - POO - JavaScript - APIs REST ],
 )
 
 #cv-skill(
   type: [Données ],
-  info: [SQL / PostgreSQL - SQL Server - SSIS/ETL - PowerBI - KPI/OKR - Excel - Swagger],
+  info: [PostgreSQL - SQL Server - Oracle - SSIS/ETL - T-SQL/PL-SQL - PowerBI - KPI/OKR - Excel - Swagger],
 )
 
 #cv-skill(

@@ -9,21 +9,21 @@
 #cv-entry(
   society: [Malakoff Humanis],
   location: [Angers],
-  title: [Chargé de développement Informatique | Data & CRM],
+  title: [Analyste Technico-Fonctionnel | Pilotage Commercial],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
   description: list(
     [
-      Conduite de projets data et applicatifs dans un environnement de pilotage commercial, avec un focus sur l'amélioration de la performance et de l'efficacité opérationnelle.
+      Conduite de projets data et applicatifs au sein de l'equipe pilotage operaiotionnel et outisl , avec un focus sur l'amélioration de la performance et de l'efficacité opérationnelle.
     ],
 
     [
-      Support fonctionnel et supervision d’outils commerciaux (CRM, téléphonie, ETL), gestion des incidents via Jira.
+      Support fonctionnel et supervision d’outils commerciaux CRM (*Salesforce* & Selligent), téléphonie (Genesys Cloud), ETL gestion des incidents via Jira.
     ],
 
     [
-      Analyse des incidents SSIS, des anomalies de données avec SQL, ainsi que reporting de performance commerciale et recueil des besoins.
+      Analyse des incidents SSIS, des anomalies de données avec SQL, ainsi que *reporting de performance commerciale* et recueil des besoins.
     ],
 
 
