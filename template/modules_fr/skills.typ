@@ -5,7 +5,7 @@
 
 #cv-skill(
   type: [Développement],
-  info: [Python (FastApi/Flask/Jinja) - PHP - Java - POO - JavaScript - APIs REST ],
+  info: [Python (FastApi/Flask/Jinja) - PHP - Java - POO - JavaScript - APIs REST - Vue.js - React ],
 )
 
 #cv-skill(

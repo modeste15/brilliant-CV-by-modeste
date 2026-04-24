@@ -9,21 +9,21 @@
 #cv-entry(
   society: [Malakoff Humanis],
   location: [Angers],
-  title: [Analyste Technico-Fonctionnel | Pilotage Commercial],
+  title: [Analyste Developpeur PHP/SQL],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
   description: list(
     [
-      Conduite de projets data et applicatifs au sein de l'equipe pilotage operaiotionnel et outisl , avec un focus sur l'amélioration de la performance et de l'efficacité opérationnelle.
+      Chargé de développement informatique de deux applications PHP self-data exploitant les données CRM .
     ],
 
     [
-      Support fonctionnel et supervision d’outils commerciaux CRM (*Salesforce* & Selligent), téléphonie (Genesys Cloud), ETL gestion des incidents via Jira.
+      Maintenance évo et évolutive de l’application (PHP5 to PHP8) de gestion des campagnes marketing (PHP/MySQL) : développement de nouvelles fonctionnalités, correction de bugs, optimisation des performances.
     ],
 
     [
-      Analyse des incidents SSIS, des anomalies de données avec SQL, ainsi que *reporting de performance commerciale* et recueil des besoins.
+      Analyse des incidents SSIS, des anomalies de données avec SQL, ainsi que reporting de performance commerciale et recueil des besoins.
     ],
 
 
@@ -32,7 +32,7 @@
 )
 
 #cv-entry(
-  title: [Consultant Analyste Développeur],
+  title: [Consultant Analyste Développeur Laravel],
   society: [Orange],
   date: [Juillet 2022 - Juillet 2023],
   location: [Paris],
