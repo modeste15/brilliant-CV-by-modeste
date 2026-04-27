@@ -9,21 +9,21 @@
 #cv-entry(
   society: [Malakoff Humanis],
   location: [Angers],
-  title: [Analyste Technico-Fonctionnel | Pilotage Commercial],
+  title: [PMO | Pilotage Opérationnel et Outils],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
   description: list(
     [
-      Conduite de projets data et applicatifs au sein de l'equipe pilotage operaiotionnel et outisl , avec un focus sur l'amélioration de la performance et de l'efficacité opérationnelle.
+      Conduite de projets data et applicatifs au sein de l'equipe pilotage opérationnel et outils , avec un focus sur l'amélioration de la performance et de l'efficacité opérationnelle.
     ],
 
     [
-      Support fonctionnel et supervision d’outils commerciaux CRM (*Salesforce* & Selligent), téléphonie (Genesys Cloud), ETL gestion des incidents via Jira.
+      Reportings et visualisation de données pour le suivi de la performance opérationnelle (*KPI/OKR/rémunération variable*), l'identification des tendances et la prise de décisions éclairées.
     ],
 
     [
-      Analyse des incidents SSIS, des anomalies de données avec SQL, ainsi que *reporting de performance commerciale* et recueil des besoins.
+      Analyser et prendre en charge les demandes d’amélioration continue provenant du métier (demande d’évolutions d'indicateurs, de correction d’anomalies).
     ],
 
 
@@ -63,7 +63,7 @@
       
       [ Analyste-développeur (Python/React) intervenant sur une solution SaaS de GMAO intégrant des environnements IoT.],
       [ Assurer le support applicatif auprès des clients du logiciel, analyser leurs besoins et évaluer la faisabilité.],
-      [ Développer la collecte de données IoT via les API, implémenter des maps de géolocalisation et optimiser la gestion documentaire.],
+      [ Développer la collecte de données IoT via les API.],
     ),
   //tags: ("GMAO", "IoT", "SaaS", "Support applicatif", "Automatisation", "Géolocalisation", "Gestion documentaire" ),
 

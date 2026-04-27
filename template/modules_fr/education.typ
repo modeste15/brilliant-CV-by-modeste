@@ -5,7 +5,7 @@
 #cv-section("Formation")
 
 #cv-entry(
-  title: [Master of Science, Management des Systemes d'Information],
+  title: [Master of Science, Data et Systèmes d'Information],
   society: [SUPINFO],
   date: [2023 - 2025],
   location: [France],
