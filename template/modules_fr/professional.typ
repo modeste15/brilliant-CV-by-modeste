@@ -9,17 +9,20 @@
 #cv-entry(
   society: [Malakoff Humanis],
   location: [Angers],
-  title: [PMO | Pilotage Opérationnel et Outils],
+  title: [Analyste Fonctionnel | Pilotage des outils commerciaux],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
   description: list(
     [
-      Conduite de projets data et applicatifs au sein de l'equipe pilotage opérationnel et outils , avec un focus sur l'amélioration de la performance et de l'efficacité opérationnelle.
+      Coordinateur et pilote de projets informatiques au sein de la direction du développement commercial, avec suivi des KPI/OKR et pilotage opérationnel sur des sujets transverses impliquant les équipes RH, ADV et marketing.
     ],
 
     [
-      Reportings et visualisation de données pour le suivi de la performance opérationnelle (*KPI/OKR/rémunération variable*), l'identification des tendances et la prise de décisions éclairées.
+      Réalisation d’études préalables : cadrage du périmètre, analyse de l’existant, définition des objectifs, gestion des risques, budget, planning et reporting.
+    ],
+    [
+      Reportings et visualisation de données pour le suivi de la performance opérationnelle , l'identification des tendances.
     ],
 
     [

@@ -69,7 +69,7 @@ language = "fr"
     first_name = "Modeste"
     last_name = "KOUASSI"
 
-    poste = "Analyst BI Junior"
+    poste = "Analyste Fonctionnel"
 
 
     [personal.info]
@@ -101,8 +101,8 @@ language = "fr"
 
 [lang.fr]
     # header_quote = "Fort de 4 ans d’expérience, allant du développement applicatif à l’analyse fonctionnelle, je combine expertise technique et compréhension des enjeux opérationnels. En tant qu’intermédiaire entre les équipes techniques et métiers, je veille à la fiabilité des processus et à la mise en œuvre de solutions d’automatisation à forte valeur ajoutée."
-    header_quote = "Fort de 4 ans d’expérience du développement applicatif à  l'analyse de données, je me positionne aujourd’hui sur des problématiques de pilotage par la données. J’ai développé une solide capacité à transformer les besoins métiers en solutions concrètes, notamment à travers la manipulation de données, la conception d’indicateurs et la mise en place de reportings."
-    
+    # header_quote = "Fort de 4 ans d’expérience du développement applicatif à  l'analyse de données, je me positionne aujourd’hui sur des problématiques de pilotage par la données. J’ai développé une solide capacité à transformer les besoins métiers en solutions concrètes, notamment à travers la manipulation de données, la conception d’indicateurs et la mise en place de reportings."
+    header_quote = "Je mobilise un profil à la fois technique et analytique, avec un sens aigu du besoin métier, pour produire des analyses orientées résultats, tout en m’appuyant sur une communication claire, un fort esprit collaboratif et une forte motivation."
     cv_footer = "Résumé"
     letter_footer = "Lettre de motivation"
 
