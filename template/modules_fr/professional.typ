@@ -7,31 +7,29 @@
 
 
 #cv-entry(
-  society: [Malakoff Humanis],
+  society: [Malakoff Humanis - Alternance],
   location: [Angers],
-  title: [Analyste Fonctionnel | Pilotage des outils commerciaux],
+  title: [Analyste Technico-Fonctionnel | Pilotage opérationnel],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
   description: list(
-    [
-      Coordinateur et pilote de projets informatiques au sein de la direction du développement commercial, avec suivi des KPI/OKR et pilotage opérationnel sur des sujets transverses impliquant les équipes RH, ADV et marketing.
-    ],
 
     [
       Réalisation d’études préalables : cadrage du périmètre, analyse de l’existant, définition des objectifs, gestion des risques, budget, planning et reporting.
     ],
     [
-      Reportings et visualisation de données pour le suivi de la performance opérationnelle , l'identification des tendances.
+      Reportings et visualisation de données pour le suivi de la performance commerciale , l'identification des tendances.
     ],
 
     [
-      Analyser et prendre en charge les demandes d’amélioration continue provenant du métier (demande d’évolutions d'indicateurs, de correction d’anomalies).
+      Coordination avec équipes techniques et métiers pour résolution de problématiques complexes, garantissant la satisfaction client et l'efficacité opérationnelle.
     ],
+    [ Gestion des incidents de données et de la qualité des données, assurant l'intégrité et la fiabilité des informations utilisées pour les analyses et les prises de décision.],
 
 
   ),
-  //tags: ( "Atlassian Suite", "SQL Server","Linux", "Dynatrace", "Genesys Cloud","CRM (Salesforce & Selligent)" , "Conduite de projets"),
+  //tags: ( "Atlassian Suite", "SQL Server","Linux", "Genesys Cloud","CRM (Salesforce & Selligent)" , "Conduite de projets"),
 )
 
 #cv-entry(
@@ -44,7 +42,7 @@
     [Développement de nouvelles fonctionnalités sur une application de gestion de projets multi-sources centralisant et croisant des données pour les équipes d'intervention(BtoB). ],
     [Collaboration avec les équipes métiers et UIPath/RPA pour l'automatisation de processus manuels, réduisant les erreurs et améliorant l'efficacité opérationnelle.],
     [Intégration de solutions API (Digisign, INSEE) pour automatiser la signature électronique et enrichir les données clients.],
-    [Mise en place de pipelines CI/CD (Docker, GitLab) et de monitoring (Grafana) en approche DevOps.],
+    //[Mise en place de pipelines CI/CD (Docker, GitLab) et de monitoring (Grafana) en approche DevOps.],
     [Travail autonome et en équipe pour résoudre des bugs critiques et livrer des fonctionnalités dans les délais impartis.],
 
 
@@ -64,9 +62,9 @@
   location: [Le Havre],
   description: list(
       
-      [ Analyste-développeur (Python/React) intervenant sur une solution SaaS de GMAO intégrant des environnements IoT.],
+      [ Analyste-développeur (Python/React) intervenant sur une solution *SaaS* de GMAO intégrant des environnements IoT.],
       [ Assurer le support applicatif auprès des clients du logiciel, analyser leurs besoins et évaluer la faisabilité.],
-      [ Développer la collecte de données IoT via les API.],
+      //[ Développer la collecte de données IoT via les API.],
     ),
   //tags: ("GMAO", "IoT", "SaaS", "Support applicatif", "Automatisation", "Géolocalisation", "Gestion documentaire" ),
 

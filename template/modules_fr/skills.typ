@@ -5,7 +5,7 @@
 
 #cv-skill(
   type: [Développement],
-  info: [Python (FastApi/Pyspark) - PHP - Java - POO - JavaScript - APIs REST ],
+  info: [Python (FastApi/Pyspark) - PHP - JavaScript - APIs REST ],
 )
 
 #cv-skill(
@@ -24,7 +24,6 @@
   type: [Outils  ],
   info: [Git - Bitbucket - Jira - Postman - ERP - CRM - ITSM],
 )
-
 
 #cv-skill(
   type: [Méthodes  ],
