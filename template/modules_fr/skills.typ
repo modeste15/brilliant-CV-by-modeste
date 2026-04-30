@@ -5,7 +5,7 @@
 
 #cv-skill(
   type: [Développement ],
-  info: [Python (FastApi/Flask/Jinja) - PHP - Java - POO - JavaScript - APIs REST - Modern Frameworks],
+  info: [Python - PHP - Java - C Sharp - POO - JavaScript - Frameworks SPA ],
 )
 
 #cv-skill(
@@ -15,7 +15,7 @@
 
 #cv-skill(
   type: [Devops & Cloud  ],
-  info: [Linux - Grafana - Dynatrace - Docker - Azure - GitLab CI/CD - SonarQube ],
+  info: [Linux - Grafana - Dynatrace - Docker - Azure - AWS - GitLab CI/CD - SonarQube ],
 )
 
 #cv-skill(
@@ -25,7 +25,12 @@
 
 #cv-skill(
   type: [Methodes  ],
-  info: [Agile/ Scrum - ITIL - UML - Conduite de projets - UX/UI design - Modélisation de données],
+  info: [Agile/ Scrum - ITIL - UML - Conduite de projets - UX/UI design ],
+)
+
+#cv-skill(
+  type: [Soft skills  ],
+  info: [Communication - Travail en équipe - Fiable  - Curiosité  ],
 )
 
 #cv-skill(

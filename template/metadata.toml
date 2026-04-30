@@ -69,11 +69,11 @@ language = "fr"
     first_name = "Modeste"
     last_name = "KOUASSI"
 
-    poste = "Chargé de Support Applicatif & Fonctionnel"
+    poste = "Consultant SI & Data"
 
 
     [personal.info]
-        # github = "yunanwg"
+        github = "modeste15"
         phone = "+33 7 52 42 29 36"
         email = "devmodeste@gmail.com"
 
@@ -100,7 +100,7 @@ language = "fr"
 # Each section must contain header_quote, cv_footer, and letter_footer
 
 [lang.fr]
-    header_quote = "Fort de 4 ans d’expérience, du développement applicatif à l’analyse fonctionnelle, je combine expertise technique et compréhension des enjeux opérationnels afin d’améliorer la performance des systèmes d’information. En tant qu’intermédiaire entre les équipes techniques et métiers, je veille à la fiabilité des processus et à la mise en œuvre de solutions d’automatisation à forte valeur ajoutée."
+    header_quote = "Fort de 4 ans d’expérience, du développement applicatif à l’analyse fonctionnelle, je combine expertise technique et compréhension des enjeux opérationnels afin d’améliorer la performance des systèmes d’information. Autonome et adaptable, je suis prêt à apprendre et à m'intégrer dans une équipe dynamique pour contribuer à des projets ambitieux. Mon objectif est de continuer à grandir dans un environnement stimulant, en apportant ma polyvalence technique et mon enthousiasme."
     cv_footer = "Résumé"
     letter_footer = "Lettre de motivation"
 
