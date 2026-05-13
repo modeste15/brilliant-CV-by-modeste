@@ -100,7 +100,7 @@ language = "fr"
 # Each section must contain header_quote, cv_footer, and letter_footer
 
 [lang.fr]
-    header_quote = "Fort de 4 ans d’expérience, du développement applicatif à l’analyse fonctionnelle, je combine expertise technique et compréhension des enjeux opérationnels afin d’améliorer la performance des systèmes d’information. Autonome et adaptable, je suis prêt à apprendre et à m'intégrer dans une équipe dynamique pour contribuer à des projets ambitieux. Mon objectif est de continuer à grandir dans un environnement stimulant, en apportant ma polyvalence technique et mon enthousiasme."
+    header_quote = "Fort de 4 ans d’expérience, du développement à l’analyse fonctionnelle, je combine expertise technique et compréhension des enjeux opérationnels . Rigoureux, autonome et adaptable, Je suis à la recherche d’une opportunité au sein de laquelle je pourrai m’engager pleinement et progresser."
     cv_footer = "Résumé"
     letter_footer = "Lettre de motivation"
 

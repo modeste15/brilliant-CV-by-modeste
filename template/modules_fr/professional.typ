@@ -5,9 +5,22 @@
 #cv-section("Expérience Professionnelle")
 
 
+#cv-entry(
+  title: [Analyste Fonctionnel ],
+  society: [boble io - Freelance],
+  date: [Janvier 2026 - Avril 2026],
+  location: [Remote],
+  logo: image("../assets/logos/ucla.png"),
+  description: list(
+    [Redaction des users stories et spécifications fonctionnelles.],
+    [Collaboration avec les équipes de développement pour assurer la compréhension des besoins et la faisabilité technique.],
+    [Recette Fonctionnelle et suivi des évolutions.],
+  )
+)
+
 
 #cv-entry(
-  society: [Malakoff Humanis (Alternance + CDD)],
+  society: [Malakoff Humanis - Alternance + CDD],
   location: [Angers],
   title: [Analyste Technico-fonctionnel | Data & CRM],
   logo: image("../assets/logos/ucla.png"),
@@ -27,7 +40,7 @@
     ],
 
     [
-      *Reporting et suivi de performance commerciale* : Recueillir les besoins et produire des reportings pour piloter la performance commerciale.
+      *Reporting et suivi de performance commerciale :* KPI, OKR , Rémunération variable.
     ],
 
     [
@@ -36,7 +49,7 @@
 
   ),
   tags: ( "Atlassian Suite", "SQL Server","Linux", "Dynatrace", "Genesys Cloud","CRM (Salesforce & Selligent)" ,"Data Galaxy", "Conduite de projets"),
-)
+),
 
 #cv-entry(
   title: [Consultant - Analyste Développeur],
@@ -52,7 +65,7 @@
     [*Mise en place de pipelines CI/CD* avec Docker et Gitlab avec des tests unitaires, résolvant les problèmes de build et de déploiement.]
 
   ),
-  tags: ("Agile","SQL","Digisign","Visual Planning","RPA",  "APIs REST", "Postman","Gitlab CI/CD", "Grafana" ),
+  //tags: ("Agile","SQL","Digisign","Visual Planning","RPA",  "APIs REST", "Postman","Gitlab CI/CD", "Grafana" ),
 
 )
 
@@ -67,9 +80,9 @@
       
       [ Analyste-développeur *(Python/React)* intervenant sur une solution *SaaS de GMAO* intégrant des environnements IoT.],
       [ Assurer le support applicatif auprès des clients du logiciel, analyser leurs besoins et évaluer la faisabilité technique des évolutions demandées.],
-      [ Développer la *collecte de données IoT* via les API, implémenter des *maps de géolocalisation* et optimiser la *gestion documentaire* .],
+      [ Développer la *collecte de données IoT* via les API, implémenter des maps de géolocalisation et optimiser la gestion documentaire .],
     ),
-  tags: ("GMAO", "IoT", "SaaS", "Support applicatif", "Automatisation", "Géolocalisation", "Gestion documentaire" ),
+  //tags: ("GMAO", "IoT", "SaaS", "Support applicatif", "Automatisation", "Géolocalisation", "Gestion documentaire" ),
 
 
 )
@@ -87,19 +100,22 @@
     [Collaboration avec une équipe de designers pour la conception UX/UI : wireframes, prototypes, interfaces intuitives.],
     [*Accompagnement utilisateurs* : installations sur site, formation, support]
   ),
-  tags: ("UX/UI design","Postgres", "Développement applicatif","Modélisation de données","Cloud(Contexte HDS)" ),
+  //tags: ("UX/UI design","Postgres", "Développement applicatif","Modélisation de données","Cloud(Contexte HDS)" ),
 
 )
 
 
 #cv-entry(
-  title: [Freelance Développeur Backend],
+  title: [Freelance Développeur Fullstack],
   society: [MiabeSTAR],
   date: list(
     [Janvier 2020 - Juin 2020]
   ),
   location: [Lomé],
-  description: list([Développement backend pour une application Mobile de monétisation pour créateurs de contenu.]),
+  description: list(
+    [Développement backend PHP, mobile React Native pour une application Mobile de monétisation pour créateurs de contenu.],
+    [Conception de l’architecture de données et des API REST pour la gestion des utilisateurs, paiements et contenus.],
+    ),
   )
 
 

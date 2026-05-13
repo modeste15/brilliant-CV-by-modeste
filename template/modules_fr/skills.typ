@@ -10,12 +10,12 @@
 
 #cv-skill(
   type: [Données ],
-  info: [SQL / PostgreSQL - SQL Server - SSIS/ETL - PowerBI - KPI/OKR - Excel - Swagger],
+  info: [SQL - Oracle- SSIS - Visualisation - Excel - ETL],
 )
 
 #cv-skill(
   type: [Devops & Cloud  ],
-  info: [Linux - Grafana - Dynatrace - Docker - Azure - AWS - GitLab CI/CD - SonarQube ],
+  info: [Linux - Docker - Dynatrace - Azure - GitLab CI/CD - SonarQube ],
 )
 
 #cv-skill(
