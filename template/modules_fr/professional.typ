@@ -5,64 +5,49 @@
 #cv-section("Expérience Professionnelle")
 
 
-#cv-entry(
-  title: [Analyste Fonctionnel ],
-  society: [boble io - Freelance],
-  date: [Janvier 2026 - Avril 2026],
-  location: [Remote],
-  logo: image("../assets/logos/ucla.png"),
-  description: list(
-    [Redaction des users stories et spécifications fonctionnelles.],
-    [Collaboration avec les équipes de développement pour assurer la compréhension des besoins et la faisabilité technique.],
-    [Recette Fonctionnelle et suivi des évolutions.],
-  )
-)
 
 
 #cv-entry(
-  society: [Malakoff Humanis - Alternance + CDD],
+  society: [Malakoff Humanis - Alternance ],
   location: [Angers],
-  title: [Analyste Technico-fonctionnel | Data & CRM],
+  title: [Chargé de développement informatique],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
   description: list(
     [
-      Pilotage et optimisation des applications métier en environnement *RUN* pour plus de 1 000  commerciaux, avec garantie du respect des SLA.
+      Pilotage et optimisation des applications métier en environnement RUN .
     ],
 
     [
-      *Support applicatif * sur les outils (CRM, téléphonie, ETL et applications internes), avec qualification des incidents via Jira.
+      Support applicatif  sur les outils (CRM, téléphonie, ETL et applications internes), avec qualification des incidents .
     ],
 
     [
-      *Analyse des incidents* liés aux traitements *SSIS*, investigation des anomalies de données avec SQL et formalisation des constats pour faciliter leur résolution.
+      Analyse des incidents liés aux traitements SSIS, investigation des anomalies de données avec SQL et formalisation des constats pour faciliter leur résolution.
     ],
 
     [
-      *Reporting et suivi de performance commerciale :* KPI, OKR , Rémunération variable.
+      Reporting et suivi de performance commerciale : KPI, OKR , Rémunération variable.
     ],
 
-    [
-      *Modernisation applicative* : migration blue-green, transition d’authentification de CAS vers Azure AD.
-    ]
 
-  ),
-  tags: ( "Atlassian Suite", "SQL Server","Linux", "Dynatrace", "Genesys Cloud","CRM (Salesforce & Selligent)" ,"Data Galaxy", "Conduite de projets"),
-),
+  )
+  //tags: ( "Atlassian Suite", "SQL Server","Linux", "Dynatrace", "Genesys Cloud","CRM (Salesforce & Selligent)" ,"Data Galaxy", "Conduite de projets"),
+)
 
 #cv-entry(
-  title: [Consultant - Analyste Développeur],
-  society: [Orange],
+  title: [Analyste Développeur],
+  society: [Orange - Freelance],
   date: [Juillet 2022 - Juillet 2023],
   location: [Paris],
   logo: image("../assets/logos/ucla.png"),
   description: list(
-    [Développement de nouvelles fonctionnalités sur une application de gestion de projets multi-sources (*ERP Facturation, ERP planification*) centralisant et croisant des données pour les equipes d'intervention. ],
-    [Collaboration avec les equipes métiers et *automatisation UIPath/RPA* , réduisant les erreurs et améliorant l'efficacité opérationnelle.],
-    [Intégration de solutions *API (Digisign, INSEE)* pour automatiser la signature électronique et enrichir les données clients, optimisant les processus de validation et le pilotage métier.],
-    [*Travail autonome* et en équipe pour résoudre des bugs critiques et livrer des fonctionnalités dans les délais impartis.],
-    [*Mise en place de pipelines CI/CD* avec Docker et Gitlab avec des tests unitaires, résolvant les problèmes de build et de déploiement.]
+    [Développement de nouvelles fonctionnalités sur une application de gestion de projets multi-sources (ERP Facturation, ERP planification) centralisant et croisant des données pour les equipes d'intervention. ],
+    [Collaboration avec les equipes métiers et automatisation UIPath/RPA , réduisant les erreurs et améliorant l'efficacité opérationnelle.],
+    [Intégration de solutions API (Digisign, INSEE) pour automatiser la signature électronique et enrichir les données clients.],
+    [Travail autonome et en équipe pour résoudre des bugs critiques et livrer des fonctionnalités dans les délais impartis.],
+    [Mise en place de pipelines CI/CD avec Docker et Gitlab avec des tests unitaires, résolvant les problèmes de build et de déploiement.]
 
   ),
   //tags: ("Agile","SQL","Digisign","Visual Planning","RPA",  "APIs REST", "Postman","Gitlab CI/CD", "Grafana" ),
@@ -78,10 +63,10 @@
   location: [Le Havre],
   description: list(
       
-      [ Analyste-développeur *(Python/React)* intervenant sur une solution *SaaS de GMAO* intégrant des environnements IoT.],
+      [ Analyste-développeur (Python/React) intervenant sur une solution SaaS de GMAO intégrant des environnements IoT.],
       [ Assurer le support applicatif auprès des clients du logiciel, analyser leurs besoins et évaluer la faisabilité technique des évolutions demandées.],
-      [ Développer la *collecte de données IoT* via les API, implémenter des maps de géolocalisation et optimiser la gestion documentaire .],
-    ),
+      [ Développer la collecte de données IoT via les API .]
+    )
   //tags: ("GMAO", "IoT", "SaaS", "Support applicatif", "Automatisation", "Géolocalisation", "Gestion documentaire" ),
 
 
@@ -98,24 +83,11 @@
   description: list(
     [Analyse du besoin et étude technique pour le développement intégral d’un ERP hospitalier.], 
     [Collaboration avec une équipe de designers pour la conception UX/UI : wireframes, prototypes, interfaces intuitives.],
-    [*Accompagnement utilisateurs* : installations sur site, formation, support]
+    [Accompagnement utilisateurs : installations sur site, formation, support]
   ),
   //tags: ("UX/UI design","Postgres", "Développement applicatif","Modélisation de données","Cloud(Contexte HDS)" ),
 
 )
 
-
-#cv-entry(
-  title: [Freelance Développeur Fullstack],
-  society: [MiabeSTAR],
-  date: list(
-    [Janvier 2020 - Juin 2020]
-  ),
-  location: [Lomé],
-  description: list(
-    [Développement backend PHP, mobile React Native pour une application Mobile de monétisation pour créateurs de contenu.],
-    [Conception de l’architecture de données et des API REST pour la gestion des utilisateurs, paiements et contenus.],
-    ),
-  )
 
 
