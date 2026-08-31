@@ -69,7 +69,7 @@ language = "fr"
     first_name = "Modeste"
     last_name = "KOUASSI"
 
-    poste = "Ingénieur Data - Architecture & Pipelines"
+    poste = "Data & Business Analyst - Pilotage de la Performance"
 
 
     [personal.info]
@@ -100,7 +100,7 @@ language = "fr"
 # Each section must contain header_quote, cv_footer, and letter_footer
 
 [lang.fr]
-    header_quote = "Diplômé d'un Master en Data Engineering et fort de 4 ans d'expérience sur des architectures et pipelines de données (ingestion, ETL, qualité et fiabilité), je combine rigueur technique, esprit d'analyse et sens du service pour transformer les besoins métiers en solutions data robustes. Autonome et force de proposition, je recherche un poste où m'investir durablement au service d'une donnée fiable et performante."
+    header_quote = "Data & Business Analyst, j'ai construit mon parcours à travers plusieurs expériences et environnements (data engineering, reporting, pilotage de la performance), transformant des données multi-sources en indicateurs fiables et recommandations concrètes. Rigoureux et force de proposition, je suis actuellement à l'écoute de nouvelles opportunités pour contribuer à des projets porteurs d'impact, faire bouger les lignes et faire progresser durablement la performance des organisations."
     cv_footer = "Résumé"
     letter_footer = "Lettre de motivation"
 

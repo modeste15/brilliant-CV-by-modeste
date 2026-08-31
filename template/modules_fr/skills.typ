@@ -5,27 +5,17 @@
 
 #cv-skill(
   type: [Données ],
-  info: [SQL - Oracle - SSIS - PowerBi - Tableau - Dataiku - Excel - ETL],
+  info: [SQL - Analyse statistique (Dataiku) - Excel avancé - PowerBi - Tableau - Oracle - SSIS - ETL],
 )
 
 #cv-skill(
-  type: [Développement ],
-  info: [Python - PHP - POO - JavaScript - Frameworks SPA ],
-)
-
-#cv-skill(
-  type: [Devops & Cloud  ],
-  info: [Azure (Data Factory) - AWS - Linux - Docker - Dynatrace - GitLab CI/CD - SonarQube ],
+  type: [Methodes  ],
+  info: [Conduite de projets - Agile/ Scrum - ITIL - UML - Amélioration continue - UX/UI design ],
 )
 
 #cv-skill(
   type: [Outils  ],
   info: [Git - Bitbucket - Jira - Postman - ERP - CRM - ITSM],
-)
-
-#cv-skill(
-  type: [Methodes  ],
-  info: [Agile/ Scrum - ITIL - UML - Conduite de projets - UX/UI design ],
 )
 
 #cv-skill(
@@ -36,4 +26,14 @@
 #cv-skill(
   type: [Langues  ],
   info: [Français (natif) - Anglais (courant)],
+)
+
+#cv-skill(
+  type: [Développement ],
+  info: [Python - PHP - POO - JavaScript - Frameworks SPA ],
+)
+
+#cv-skill(
+  type: [Devops & Cloud  ],
+  info: [Azure (Data Factory) - AWS - Linux - Docker - Dynatrace - GitLab CI/CD - SonarQube ],
 )

@@ -10,16 +10,16 @@
   location: [Angers],
   title: [Ingénieur Data & Reporting ],
   logo: image("../assets/logos/ucla.png"),
-  date: [Décembre 2025 - Novembre 2026],
+  date: [Juin 2026 - Novembre 2026],
   description: list(
     [
-      Conception et industrialisation de pipelines de données RH multi-sources : ingestion, nettoyage, normalisation et chargement, garantissant fiabilité et qualité de la donnée.
+      Analyse, consolidation et fiabilisation de données RH multi-sources (nettoyage, normalisation, chargement) pour garantir des indicateurs fiables à la prise de décision.
     ],
     [
-      Développement de tableaux de bord analytiques pour le pilotage commercial, en lien avec les équipes métiers.
+      Développement de tableaux de bord analytiques pour le pilotage commercial, en lien direct avec les équipes métiers.
     ],
     [
-      Optimisation des performances et de la volumétrie des traitements data.
+      Analyse des écarts et amélioration continue de la performance des traitements data.
     ],
   )
   //tags: ("SQL Server", "ETL", "Data Visualisation", "PHP", "JavaScript", "D3.js", "Chart.js", "Git", "Linux"),
@@ -34,7 +34,7 @@
   date: [Septembre 2023 - Novembre 2025],
   description: list(
     [
-      Pilotage et optimisation des applications métier en environnement RUN .
+      Pilotage et optimisation des applications métier en environnement RUN, en interface avec les équipes Commerce, Métiers et DSI.
     ],
 
     [
@@ -42,11 +42,11 @@
     ],
 
     [
-      Analyse des incidents liés aux traitements SSIS, investigation des anomalies de données avec SQL, documentation technique et formalisation des correctifs.
+      Analyse des écarts et anomalies de données via SQL, investigation des causes racines, documentation technique et formalisation des correctifs pour fiabiliser durablement la donnée.
     ],
 
     [
-      Reporting et suivi de performance commerciale : KPI, OKR, Rémunération variable.
+      Construction et suivi d'indicateurs de performance commerciale (KPI, OKR, rémunération variable), avec animation de reporting auprès des équipes.
     ],
 
 
