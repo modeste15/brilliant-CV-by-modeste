@@ -13,13 +13,13 @@
   date: [Décembre 2025 - Novembre 2026],
   description: list(
     [
-      Conception de pipelines d'intégration de données RH multi-sources : nettoyage, normalisation et chargement.
+      Conception et industrialisation de pipelines de données RH multi-sources : ingestion, nettoyage, normalisation et chargement, garantissant fiabilité et qualité de la donnée.
     ],
     [
-      Développement de tableaux de bord analytiques pour le pilotage commercial 
+      Développement de tableaux de bord analytiques pour le pilotage commercial, en lien avec les équipes métiers.
     ],
     [
-      Optimisation des performances data .
+      Optimisation des performances et de la volumétrie des traitements data.
     ],
   )
   //tags: ("SQL Server", "ETL", "Data Visualisation", "PHP", "JavaScript", "D3.js", "Chart.js", "Git", "Linux"),
@@ -42,11 +42,11 @@
     ],
 
     [
-      Analyse des incidents liés aux traitements SSIS, investigation des anomalies de données avec SQL et formalisation.
+      Analyse des incidents liés aux traitements SSIS, investigation des anomalies de données avec SQL, documentation technique et formalisation des correctifs.
     ],
 
     [
-      Reporting et suivi de performance commerciale : KPI, OKR , Rémunération variable.
+      Reporting et suivi de performance commerciale : KPI, OKR, Rémunération variable.
     ],
 
 

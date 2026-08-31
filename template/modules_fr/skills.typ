@@ -15,7 +15,7 @@
 
 #cv-skill(
   type: [Devops & Cloud  ],
-  info: [Linux - Docker - Dynatrace - Azure - GitLab CI/CD - SonarQube ],
+  info: [Azure (Data Factory) - AWS - Linux - Docker - Dynatrace - GitLab CI/CD - SonarQube ],
 )
 
 #cv-skill(
