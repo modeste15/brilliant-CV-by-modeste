@@ -4,13 +4,13 @@
 #cv-section("Compétences")
 
 #cv-skill(
-  type: [Développement ],
-  info: [Python - PHP - Java - C Sharp - POO - JavaScript - Frameworks SPA ],
+  type: [Données ],
+  info: [SQL - Oracle - SSIS - PowerBi - Tableau - Dataiku - Excel - ETL],
 )
 
 #cv-skill(
-  type: [Données ],
-  info: [SQL - Oracle- SSIS - Visualisation - Excel - ETL],
+  type: [Développement ],
+  info: [Python - PHP - POO - JavaScript - Frameworks SPA ],
 )
 
 #cv-skill(

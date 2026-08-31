@@ -5,12 +5,30 @@
 #cv-section("Expérience Professionnelle")
 
 
-
+#cv-entry(
+  society: [Malakoff Humanis - CDD],
+  location: [Angers],
+  title: [Ingénieur Data & Reporting ],
+  logo: image("../assets/logos/ucla.png"),
+  date: [Décembre 2025 - Novembre 2026],
+  description: list(
+    [
+      Conception de pipelines d'intégration de données RH multi-sources : nettoyage, normalisation et chargement.
+    ],
+    [
+      Développement de tableaux de bord analytiques pour le pilotage commercial 
+    ],
+    [
+      Optimisation des performances data .
+    ],
+  )
+  //tags: ("SQL Server", "ETL", "Data Visualisation", "PHP", "JavaScript", "D3.js", "Chart.js", "Git", "Linux"),
+)
 
 #cv-entry(
   society: [Malakoff Humanis - Alternance ],
   location: [Angers],
-  title: [Chargé de développement informatique],
+  title: [Ingénieur Logiciel - Pilotage de la performance],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
@@ -24,7 +42,7 @@
     ],
 
     [
-      Analyse des incidents liés aux traitements SSIS, investigation des anomalies de données avec SQL et formalisation des constats pour faciliter leur résolution.
+      Analyse des incidents liés aux traitements SSIS, investigation des anomalies de données avec SQL et formalisation.
     ],
 
     [
@@ -43,11 +61,11 @@
   location: [Paris],
   logo: image("../assets/logos/ucla.png"),
   description: list(
-    [Développement de nouvelles fonctionnalités sur une application de gestion de projets multi-sources (ERP Facturation, ERP planification) centralisant et croisant des données pour les equipes d'intervention. ],
-    [Collaboration avec les equipes métiers et automatisation UIPath/RPA , réduisant les erreurs et améliorant l'efficacité opérationnelle.],
+    [Application de gestion de projets multi-sources centralisant et croisant des données pour les equipes d'intervention. ],
+    [Collaboration avec les equipes métiers et automatisation UIPath/RPA .],
     [Intégration de solutions API (Digisign, INSEE) pour automatiser la signature électronique et enrichir les données clients.],
     [Travail autonome et en équipe pour résoudre des bugs critiques et livrer des fonctionnalités dans les délais impartis.],
-    [Mise en place de pipelines CI/CD avec Docker et Gitlab avec des tests unitaires, résolvant les problèmes de build et de déploiement.]
+    [Mise en place de pipelines CI/CD avec Docker et Gitlab avec des tests unitaires.]
 
   ),
   //tags: ("Agile","SQL","Digisign","Visual Planning","RPA",  "APIs REST", "Postman","Gitlab CI/CD", "Grafana" ),
@@ -64,7 +82,7 @@
   description: list(
       
       [ Analyste-développeur (Python/React) intervenant sur une solution SaaS de GMAO intégrant des environnements IoT.],
-      [ Assurer le support applicatif auprès des clients du logiciel, analyser leurs besoins et évaluer la faisabilité technique des évolutions demandées.],
+      [ Assurer le support applicatif auprès des clients du logiciel, analyser leurs besoins et évaluer la faisabilité technique.],
       [ Développer la collecte de données IoT via les API .]
     )
   //tags: ("GMAO", "IoT", "SaaS", "Support applicatif", "Automatisation", "Géolocalisation", "Gestion documentaire" ),
