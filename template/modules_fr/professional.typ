@@ -13,13 +13,10 @@
   date: [Juin 2026 - Novembre 2026],
   description: list(
     [
-      Analyse, consolidation et fiabilisation de données RH multi-sources (nettoyage, normalisation, chargement) pour garantir des indicateurs fiables à la prise de décision.
+      Analyse, consolidation et fiabilisation de données RH et commerciales multi-sources (nettoyage, normalisation, chargement), avec manipulation et extraction via Dataiku et Snowflake, pour garantir des indicateurs fiables à la prise de décision.
     ],
     [
-      Développement de tableaux de bord analytiques pour le pilotage commercial, en lien direct avec les équipes métiers.
-    ],
-    [
-      Analyse des écarts et amélioration continue de la performance des traitements data.
+      Rôle d'AMOA data sur un projet de migration du CRM maison vers Salesforce : cadrage des besoins, qualité et mapping des données.
     ],
   )
   //tags: ("SQL Server", "ETL", "Data Visualisation", "PHP", "JavaScript", "D3.js", "Chart.js", "Git", "Linux"),
@@ -28,13 +25,13 @@
 #cv-entry(
   society: [Malakoff Humanis - Alternance],
   location: [Angers],
-  title: [Chargé de Développement Informatique],
+  title: [Analyste Performance Opérationnelle],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
   description: list(
     [
-      Pilotage et optimisation des applications métier en environnement RUN, en interface avec les équipes métiers et IT.
+      Optimisation de l'application de pilotage de la performance en environnement RUN, en lien avec les équipes métiers et IT.
     ],
 
     [
@@ -102,7 +99,6 @@
     [Analyse du besoin et étude technique pour le développement intégral d'un ERP hospitalier.],
     [Modélisation et structuration de la base de données (PostgreSQL) supportant l'ensemble des processus métier de l'ERP.],
     [Collaboration avec une équipe de designers pour la conception UX/UI : wireframes, prototypes, interfaces intuitives.],
-    [Accompagnement utilisateurs : installations sur site, formation, support]
   ),
   //tags: ("UX/UI design","Postgres", "Développement applicatif","Modélisation de données","Cloud(Contexte HDS)" ),
 

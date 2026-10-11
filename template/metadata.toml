@@ -100,7 +100,7 @@ language = "fr"
 # Each section must contain header_quote, cv_footer, and letter_footer
 
 [lang.fr]
-    header_quote = "J'ai construit mon parcours à travers plusieurs expériences et environnements (data engineering, analyse de données, reporting, pilotage de la performance), transformant des données multi-sources en indicateurs fiables et recommandations concrètes. Rigoureux et force de proposition, je suis actuellement à l'écoute de nouvelles opportunités au sein d'environnements exigeants, où je pourrai contribuer à des projets porteurs d'impact et faire progresser durablement la performance des organisations."
+    header_quote = "J'ai construit mon parcours à travers plusieurs expériences et environnements (data engineering, analyse de données, reporting, pilotage de la performance), transformant des données multi-sources en indicateurs fiables et recommandations concrètes. Rigoureux et force de proposition, je suis actuellement à l'écoute de nouvelles opportunités."
     cv_footer = "Résumé"
     letter_footer = "Lettre de motivation"
 

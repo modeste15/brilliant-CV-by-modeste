@@ -5,12 +5,7 @@
 
 #cv-skill(
   type: [Données ],
-  info: [SQL - Analyse statistique (Dataiku) - Excel avancé - PowerBi - Tableau - Oracle - SSIS - ETL - Airflow],
-)
-
-#cv-skill(
-  type: [Automatisation ],
-  info: [RPA (UiPath) - Automatisation de workflows (n8n) - Veille IA générative (LLMs, Text-to-SQL)],
+  info: [SQL - Snowflake - Dataiku - Excel - PowerBi - Tableau - ETL - Airflow],
 )
 
 #cv-skill(
@@ -25,7 +20,7 @@
 
 #cv-skill(
   type: [Outils],
-  info: [Git - Bitbucket - Jira - Postman - ERP - CRM - ITSM],
+  info: [Git - Bitbucket - Jira - Postman - ERP - CRM - ITSM - Claude Code],
 )
 
 #cv-skill(
