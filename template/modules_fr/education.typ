@@ -24,7 +24,7 @@
 
 
 #cv-entry(
-  title: [Licence Professionnelle en Genie Logiciel],
+  title: [Licence Professionnelle en Génie Logiciel],
   society: [Ecole Polytechnique de l'Université de Lomé],
   date: [2017 - 2020],
   location: [Lomé],

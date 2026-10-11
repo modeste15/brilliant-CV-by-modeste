@@ -7,8 +7,8 @@
 
 #cv-entry(
   society: [Malakoff Humanis - CDD],
-  location: [Angers],
-  title: [Ingénieur Data & Reporting ],
+  location: [Angers & Paris],
+  title: [Ingénieur Data & Reporting],
   logo: image("../assets/logos/ucla.png"),
   date: [Juin 2026 - Novembre 2026],
   description: list(
@@ -26,19 +26,19 @@
 )
 
 #cv-entry(
-  society: [Malakoff Humanis - Alternance ],
+  society: [Malakoff Humanis - Alternance],
   location: [Angers],
-  title: [Ingénieur Logiciel - Pilotage de la performance],
+  title: [Chargé de Développement Informatique],
   logo: image("../assets/logos/ucla.png"),
 
   date: [Septembre 2023 - Novembre 2025],
   description: list(
     [
-      Pilotage et optimisation des applications métier en environnement RUN, en interface avec les équipes Commerce, Métiers et DSI.
+      Pilotage et optimisation des applications métier en environnement RUN, en interface avec les équipes métiers et IT.
     ],
 
     [
-      Support applicatif  sur les outils (CRM, téléphonie, ETL et applications internes), avec qualification des incidents .
+      Support applicatif sur les outils (CRM, téléphonie, ETL et applications internes), avec qualification des incidents.
     ],
 
     [
@@ -61,8 +61,8 @@
   location: [Paris],
   logo: image("../assets/logos/ucla.png"),
   description: list(
-    [Application de gestion de projets multi-sources centralisant et croisant des données pour les equipes d'intervention. ],
-    [Collaboration avec les equipes métiers et automatisation UIPath/RPA .],
+    [Application de gestion de projets multi-sources centralisant, croisant et structurant des données pour le pilotage des équipes d'intervention.],
+    [Collaboration avec les équipes métiers et automatisation UIPath/RPA.],
     [Intégration de solutions API (Digisign, INSEE) pour automatiser la signature électronique et enrichir les données clients.],
     [Travail autonome et en équipe pour résoudre des bugs critiques et livrer des fonctionnalités dans les délais impartis.],
     [Mise en place de pipelines CI/CD avec Docker et Gitlab avec des tests unitaires.]
@@ -81,9 +81,9 @@
   location: [Le Havre],
   description: list(
       
-      [ Analyste-développeur (Python/React) intervenant sur une solution SaaS de GMAO intégrant des environnements IoT.],
-      [ Assurer le support applicatif auprès des clients du logiciel, analyser leurs besoins et évaluer la faisabilité technique.],
-      [ Développer la collecte de données IoT via les API .]
+      [Analyste-développeur (Python/React) intervenant sur une solution SaaS de GMAO intégrant des environnements IoT.],
+      [Assurer le support applicatif auprès des clients du logiciel, analyser leurs besoins et évaluer la faisabilité technique.],
+      [Développer la collecte de données IoT via les API.]
     )
   //tags: ("GMAO", "IoT", "SaaS", "Support applicatif", "Automatisation", "Géolocalisation", "Gestion documentaire" ),
 
@@ -92,14 +92,15 @@
 
 
 #cv-entry(
-  title: [Developpeur Fullstack web],
+  title: [Développeur Fullstack web],
   society: [Clinicaa],
   date: list(
     [Juin 2020 - Juillet 2021]
   ),
   location: [Lomé],
   description: list(
-    [Analyse du besoin et étude technique pour le développement intégral d’un ERP hospitalier.], 
+    [Analyse du besoin et étude technique pour le développement intégral d'un ERP hospitalier.],
+    [Modélisation et structuration de la base de données (PostgreSQL) supportant l'ensemble des processus métier de l'ERP.],
     [Collaboration avec une équipe de designers pour la conception UX/UI : wireframes, prototypes, interfaces intuitives.],
     [Accompagnement utilisateurs : installations sur site, formation, support]
   ),
